@@ -15,5 +15,14 @@ let myobj={  name : " amaan",
 const myfunc = function (){
     console.log("hello world ");// use semicolon inside func 
 }
-
-
+//++++++++++++++=""
+//stack (primitive )copy , heap(non primitive) oriinal refersence 
+let myname = " aamnyata"
+let user1={
+    email: " assddfhxcn.com",
+    upi: " rwets"
+}
+let user2= user1
+user2.email= "qweqertr" // for access 
+console.log(user1.email)
+console.log(user2.email)
